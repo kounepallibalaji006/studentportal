@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
 import { Award, CalendarDays, ExternalLink } from 'lucide-react';
 import AnimatedPage from '../components/AnimatedPage';
+import dataEngineer from "../assets/data engineer.jpeg";
+import articalPentopodium from "../assets/artical pen to podium.jpeg";
+import healthManagement from "../assets/health management.jpeg";
+// import BalajiNptelcertificate from "../assets/Balaji Nptel Certificate.pdf";
 
 const certifications = [
   {
@@ -10,18 +14,18 @@ const certifications = [
     description:
       'Successfully completed Health Management certification covering healthcare systems and management principles.',
     credential: '/certificates/health-management.jpg',
-    image: '/certificates/health-management.jpg',
+    image:healthManagement,
   },
 
-  {
-    title: 'NPTEL Online Certification',
-    issuer: 'NPTEL',
-    date: '2025',
-    description:
-      'Completed the NPTEL certification on Introduction to Industry 4.0 and Industrial Internet of Things (IIoT).',
-    credential: '/certificates/Balaji-Nptel-Certificate.pdf',
-    image: '/certificates/nptel.jpg',
-  },
+//   {
+//   title: 'NPTEL Online Certification',
+//   issuer: 'NPTEL',
+//   date: '2025',
+//   description:
+//     'Completed the NPTEL certification on Introduction to Industry 4.0 and Industrial Internet of Things (IIoT).',
+//   credential: '/certificates/Balaji-Nptel-Certificate.pdf',
+//   image: '/certificates/nptel.jpg',
+// }
 
   {
     title: 'Future Perspectives in Innovations and Sustainable Technologies',
@@ -30,18 +34,17 @@ const certifications = [
     description:
       'Secured 3rd Prize in the National Level Article Presentation "Pen to Podium".',
     credential: '/certificates/Pen-To-Podium.pdf',
-    image: '/certificates/pen-to-podium.jpg',
+    image:articalPentopodium,
   },
 
   {
-    title: 'Data Engineering Virtual Internship',
-    issuer: 'EduSkills',
-    date: '2025',
-    description:
-      'Completed a virtual internship in Data Engineering.',
-    credential: '/certificates/internship.jpg',
-    image: '/certificates/internship.jpg',
-  },
+  title: 'Data Engineering Virtual Internship',
+  issuer: 'EduSkills',
+  date: '2025',
+  description: 'Completed a virtual internship in Data Engineering.',
+  credential: '/certificates/internship.jpg',
+  image: dataEngineer,
+}
 ];
 // const certifications = [
 //    {

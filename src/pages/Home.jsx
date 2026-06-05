@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import AnimatedPage from '../components/AnimatedPage';
+import balaji from "../assets/balaji.jpeg";
 
 const Home = () => {
   return (
@@ -70,11 +71,11 @@ const Home = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            {/* <img
-              src="/image.jpeg"
-              alt="Balaji"
-              className="w-72 h-72 rounded-full object-cover border-4 border-blue-500 shadow-lg"
-            /> */}
+            <img
+             src={balaji}
+             alt="Balaji"
+             className="w-72 h-72 rounded-full object-cover border-4 border-blue-500 shadow-lg"
+             />
           </motion.div>
 
         </div>
