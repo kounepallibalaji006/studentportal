@@ -31,7 +31,7 @@ const About = () => {
               Personal Introduction
             </h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              Hello, my name is Balaji. I am an Artificial Intelligence and Data Science (AI&DS) student with a strong interest in Full Stack Development. I have experience working with HTML, CSS, JavaScript, React, Python, Django, and SQL to build responsive and user-friendly web applications. I enjoy learning new technologies, solving real-world problems, and developing innovative software solutions. My goal is to become a skilled Full Stack Developer and contribute to impactful technology projects.
+              Hello, my name is Lakshmi Narasimha. I am an Artificial Intelligence and Data Science (AI&DS) student with a strong interest in Full Stack Development. I have experience working with HTML, CSS, JavaScript, React, java, springboot, and SQLite to build responsive and user-friendly web applications. I enjoy learning new technologies, solving real-world problems, and developing innovative software solutions. My goal is to become a skilled Full Stack Developer and contribute to impactful technology projects.
 
             </p>
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">

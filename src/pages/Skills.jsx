@@ -6,10 +6,11 @@ const skillsData = [
   { name: 'CSS / Tailwind', level: 90 },
   { name: 'JavaScript', level: 85 },
   { name: 'React', level: 80 },
-  { name: 'Python', level: 90 },
-  { name: 'Django', level: 70 },
   { name: 'SQL', level: 75 },
   { name: 'Git & GitHub', level: 80 },
+  { name: 'sping boot', level: 87 },
+  { name: 'sqlite', level: 80 },
+  { name: 'java full stack', level: 95 },
 ];
 
 const Skills = () => {

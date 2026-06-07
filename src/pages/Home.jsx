@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import AnimatedPage from '../components/AnimatedPage';
-import balaji from "../assets/balaji.jpeg";
+import lakshmi from "../assets/lakshmi.jpeg";
+import { GiH2O } from 'react-icons/gi';
 
 const Home = () => {
   return (
@@ -23,17 +24,17 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h2 className="text-xl md:text-2xl font-medium text-indigo-600 dark:text-indigo-400 mb-4">
-              Hello, I'm
-            </h2>
+           <h1 className="text-xl md:text-2xl font-medium text-indigo-600 dark:text-indigo-400 mb-4">
+  Hello, I'm
+</h1>
 
-            <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 dark:text-white mb-6 tracking-tight">
-              KOUNEPALLI BALAJI
-            </h1>
+<h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 dark:text-white mb-6 tracking-tight">
+  KAREPPAGARI LAKSHMINARASIMHA
+</h1>
 
-            <h3 className="text-2xl md:text-3xl font-bold gradient-text mb-6">
-              Artificial Intelligence & Data Science Student & Full Stack Developer
-            </h3>
+<h4 className="text-2xl md:text-3xl font-bold gradient-text mb-6">
+  Artificial Intelligence & Data Science Student & Full Stack Developer
+</h4>
 
             <p className="text-lg text-slate-600 dark:text-slate-300 mb-8 max-w-lg mx-auto md:mx-0">
               Passionate about building scalable web applications and learning new technologies.
@@ -52,7 +53,7 @@ const Home = () => {
 
               {/* Resume PDF should be inside public folder */}
               <a
-                href="/balaji.pdf"
+                href="/lakshmi.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border-2 border-indigo-600 text-indigo-600 rounded-full hover:bg-indigo-50 transition-all"
@@ -64,16 +65,15 @@ const Home = () => {
             </div>
           </motion.div>
 
-          {/* Right Section - Profile Image */}
           <motion.div
-            className="md:w-1/2 mt-16 md:mt-0 flex justify-center"
+           className="md:w-1/2 mt-16 md:mt-0 flex justify-center md:ml-16"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <img
-             src={balaji}
-             alt="Balaji"
+             src={lakshmi}
+             alt="lakshmi"
              className="w-72 h-72 rounded-full object-cover border-4 border-blue-500 shadow-lg"
              />
           </motion.div>

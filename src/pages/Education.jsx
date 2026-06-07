@@ -49,9 +49,9 @@ const Education = () => {
               <div className="absolute -left-[41px] bg-purple-500 h-6 w-6 rounded-full border-4 border-white dark:border-slate-950"></div>
               <div className="glass p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">Diploma (Mechanical Engineering)</h3>
-                <h4 className="text-lg font-medium text-purple-600 dark:text-purple-400 mb-2">Golden Valley Intyegrated Campus-Angallu </h4>
+                <h4 className="text-lg font-medium text-purple-600 dark:text-purple-400 mb-2">DR.Y.C.JAMES YEN GOVT. POLYTECHNIC - KUPPAM  </h4>
                 <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">2021 - 2024</p>
-                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">76.85%</p>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">67.65%</p>
               </div>
             </motion.div>
             {/* high school*/}
@@ -64,8 +64,8 @@ const Education = () => {
               <div className="absolute -left-[41px] bg-purple-500 h-6 w-6 rounded-full border-4 border-white dark:border-slate-950"></div>
               <div className="glass p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">High School</h3>
-                <h4 className="text-lg font-medium text-purple-600 dark:text-purple-400 mb-2">Z.P.High School Kudurucheemanapalli </h4>
-                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">79%</p>
+                <h4 className="text-lg font-medium text-purple-600 dark:text-purple-400 mb-2">ZPHIGH SCHOOL, NIDIGUNTA, CHITTOOR DISTRICT </h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">78%</p>
                 
               </div>
             </motion.div>

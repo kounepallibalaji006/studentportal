@@ -1,31 +1,21 @@
 import { motion } from 'framer-motion';
 import { Award, CalendarDays, ExternalLink } from 'lucide-react';
 import AnimatedPage from '../components/AnimatedPage';
-import dataEngineer from "../assets/data engineer.jpeg";
-import articalPentopodium from "../assets/artical pen to podium.jpeg";
-import healthManagement from "../assets/health management.jpeg";
-// import BalajiNptelcertificate from "../assets/Balaji Nptel Certificate.pdf";
+import lakshmiData from "../assets/lakshmi data.jpeg";
+import lakshmiMits from "../assets/lakshmi mits.jpeg";
+import lakshmiTraining from "../assets/lakshmi training.jpeg";
+import lakshmiCyber from "../assets/lakshmi cyber.jpeg";
+import lakshmiNptel from "../assets/lakshmi nptel.jpeg";
+
 
 const certifications = [
   {
-    title: 'Health Management dd',
-    issuer: 'Health Management Program',
-    date: '2025',
+    title: 'shiv skill foundation KIA INDIA PVT LTD',
     description:
-      'Successfully completed Health Management certification covering healthcare systems and management principles.',
-    credential: '/certificates/health-management.jpg',
-    image:healthManagement,
+      'i have successfully completed on industrial training',
+    credential: '/certificates/lakshmi-training.jpg',
+    image: lakshmiTraining,
   },
-
-//   {
-//   title: 'NPTEL Online Certification',
-//   issuer: 'NPTEL',
-//   date: '2025',
-//   description:
-//     'Completed the NPTEL certification on Introduction to Industry 4.0 and Industrial Internet of Things (IIoT).',
-//   credential: '/certificates/Balaji-Nptel-Certificate.pdf',
-//   image: '/certificates/nptel.jpg',
-// }
 
   {
     title: 'Future Perspectives in Innovations and Sustainable Technologies',
@@ -33,18 +23,37 @@ const certifications = [
     date: '2025',
     description:
       'Secured 3rd Prize in the National Level Article Presentation "Pen to Podium".',
-    credential: '/certificates/Pen-To-Podium.pdf',
-    image:articalPentopodium,
+    credential: '/certificates/lakshmi-mits.pdf',
+    image: lakshmiMits,
   },
 
   {
-  title: 'Data Engineering Virtual Internship',
-  issuer: 'EduSkills',
-  date: '2025',
-  description: 'Completed a virtual internship in Data Engineering.',
-  credential: '/certificates/internship.jpg',
-  image: dataEngineer,
-}
+    title: 'Data Engineering Virtual Internship',
+    issuer: 'EduSkills',
+    date: '2025',
+    description:
+      'Completed a virtual internship in Data Engineering.',
+    credential: '/certificates/lakshmi-data.jpg',
+    image: lakshmiData,
+  },
+
+  {
+    title: 'Cyber Security Certification',
+    issuer: 'Cyber Security Program',
+    date: '2025',
+    description:
+      'Completed certification in Cyber Security fundamentals and best practices.',
+    credential: '/certificates/lakshmi-cyber.jpg',
+    image: lakshmiCyber,
+  },
+  {
+    title: 'Intoduction To Industry 4.0 Internet Of Things',
+    
+    description:
+      'Completed certification in Cyber Security fundamentals and best practices.',
+    credential: '/certificates/lakshmi-nptel.jpg',
+    image: lakshmiNptel,
+  },
 ];
 // const certifications = [
 //    {

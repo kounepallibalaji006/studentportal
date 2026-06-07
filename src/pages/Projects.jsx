@@ -4,20 +4,20 @@ import { FaGithub } from 'react-icons/fa';
 import AnimatedPage from '../components/AnimatedPage';
 
 const projectsData = [
+  // {
+  //   title: 'AI Powered Notes Summarizer',
+  //   description: 'A full-stack application that leverages AI to automatically summarize long lecture notes into concise bullet points.',
+  //   image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  //   tech: ['React', 'Tailwind CSS', 'Python', 'Django', 'NLP'],
+  //   github: 'https://github.com/kounepallibalaji006/ai-notes-summarizer',
+  //   demo: '#'
+  // },
   {
-    title: 'AI Powered Notes Summarizer',
-    description: 'A full-stack application that leverages AI to automatically summarize long lecture notes into concise bullet points.',
-    image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    tech: ['React', 'Tailwind CSS', 'Python', 'Django', 'NLP'],
-    github: 'https://github.com/kounepallibalaji006/ai-notes-summarizer',
-    demo: '#'
-  },
-  {
-    title: 'Student Management System',
-    description: 'A comprehensive dashboard for managing student records, attendance, and grades with secure authentication.',
-    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    title: 'Electronic voting system',
+    description: 'Built an Electronic Voting System in Java that enables secure voter authentication, vote casting, vote counting, and result generation. The project uses object-oriented programming principles to ensure accuracy, reliability, and ease of use in election management',
+    image: 'https://dymk4s89vutua.cloudfront.net/wp-content/uploads/2024/07/online_voting.webp?x66690',
     tech: ['HTML', 'CSS', 'JavaScript', 'SQL', 'PHP'],
-    github: 'https://github.com/kounepallibalaji006/student-lms',
+    github: 'https://github.com/lakshminarasimha04/EVS_project',
     demo: '#'
   },
   // {
@@ -28,14 +28,14 @@ const projectsData = [
   //   github: '#',
   //   demo: '#'
   // },
-  {
-    title: 'Portfolio Website',
-    description: 'A modern, responsive portfolio website built with React and Framer Motion to showcase my skills and projects.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
-    github: 'https://github.com/kounepallibalaji006/student-details',
-    demo: '#'
-  }
+  // {
+  //   title: 'Portfolio Website',
+  //   description: 'A modern, responsive portfolio website built with React and Framer Motion to showcase my skills and projects.',
+  //   image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  //   tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+  //   github: 'https://github.com/kounepallibalaji006/student-details',
+  //   demo: '#'
+  // }
 ];
 
 const Projects = () => {

@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import AnimatedPage from '../components/AnimatedPage';
 
 const socialLinks = {
-  github: 'https://github.com/kounepallibalaji006',
-  linkedin: 'https://www.linkedin.com/in/k-balaji-a502493a2/',
+  github: 'https://github.com/lakshminarasimha04',
+  linkedin: 'https://www.linkedin.com/in/kareppagari-lakshmi-narasimha-3899023a2/',
 };
 
 const Contact = () => {
@@ -45,7 +45,7 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-slate-500 dark:text-slate-400">Email</p>
                     <a href="mailto:contact@example.com" className="text-lg font-medium text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400">
-                      balajikounepalli006@gmail.com
+                      klakshminarasimha04@gmail.com
                     </a>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-slate-500 dark:text-slate-400">Phone</p>
                     <p className="text-lg font-medium text-slate-900 dark:text-white">
-                      +91 7993657985
+                      +91 8019710995
                     </p>
                   </div>
                 </div>
