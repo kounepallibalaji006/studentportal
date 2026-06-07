@@ -38,7 +38,7 @@ const certifications = [
   },
 
   {
-    title: 'Cyber Security Certification',
+    title: 'Cyber Security Certifications',
     issuer: 'Cyber Security Program',
     date: '2025',
     description:
