@@ -47,7 +47,7 @@ const certifications = [
     image: lakshmiCyber,
   },
   {
-    title: 'Intoduction To Industry 4.0 Internet Of Things',
+    title: 'Intoduction To Industry 4.0 Internet Of Things.',
     
     description:
       'Completed certification in Cyber Security fundamentals and best practices.',
